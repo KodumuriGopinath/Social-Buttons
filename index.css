@@ -1,0 +1,47 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.bg-container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  color: white;
+  font-size: 48px;
+  font-family: Bree Serif;
+}
+.button {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 15px;
+}
+.like-button {
+  background-color: #eab308;
+  color: #ffffff;
+  font-family: roboto;
+}
+.share-button {
+  background-color: #1d4ed8;
+  color: #ffffff;
+  font-family: roboto;
+}
+.comment-button {
+  background-color: #ffffff;
+  color: #323f4b;
+  font-family: roboto;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
